@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   
+    <script src="https://kit.fontawesome.com/7062a57189.js" crossorigin="anonymous"></script>
+    <title> My portfolio</title>
+</head>
+<body>
+  <!-- header section--> 
+    <header>
+        <h1 class="logo">AMA</h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-xmark" id="close-icon"></i>
+        </label>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about-me">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#info">More Info</a>
+        </nav>
+    </header>
+<!-- home section--> 
+    <section class="home " id="home">
+        <div class="content">
+            <h2>Hi There,<br/> I'm Alanoud <span>Mohammed</span></h2>
+            <p>i am into <span class="title-text">Front End Web Devolper</span></p>
+            <a href="#about-me" class="btn"><span>About Me</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <div class="socials">
+                <ul class="social-icons">
+                  <li><a class="linkedin" aria-label="LinkedIn"  target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                  <li><a class="github" aria-label="GitHub"  target="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a class="twitter" aria-label="Twitter"  target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="telegram" aria-label="Telegram"  target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                  <li><a class="instagram" aria-label="Instagram" ><i class="fab fa-instagram" target="_blank"></i></a></li>
+                </ul>
+              </div>
+        </div>
+    </section>
+
+    <!-- about me section--> 
+    <section id="about-me" class="about ">
+      <h2 class="heading-title">About Me</h2>
+      
+      <div class="container">
+        <img src="pic/computer-engineer.png">
+       <div class="card">
+        <h3>I'm Alanoud, a front end develeoper </h3>
+        <p>I am a beginner in the world of web development, but I am trying to develop myself and work on many projects. I have also obtained many web development certificates.</p>
+       </div>
+      </div>
+
+      <div class="container">
+       <div class="card">
+        <h3>where did I study ?</h3>
+        <p>I graduated from the University of Jeddah and obtained a Bachelor’s degree with honors in Information Technology. I am a person who has many dreams and visions in his mind. I will make you amazed!!</p>
+       </div>
+       <img src="pic/bar-chart.png">
+      </div>
+    </section>
+     
+    <!-- photo 1 section--> 
+    <section class="photo-first">
+      
+    </section> 
+
+    <!-- my skills section--> 
+    <section id="skills" class="skills reveal">
+      <h2 class="heading-title">My Skills</h2>
+     <div class="container">
+      <div class="cards">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML 5</h3>
+        <p class="percent-card">90%</p>
+      </div>
+      <div class="cards">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS 3</h3>
+        <p class="percent-card">90%</p>
+      </div>
+      <div class="cards">
+        <i class="fa-brands fa-js"></i>
+        <h3>JAVA Script</h3>
+        <p class="percent-card">70%</p>
+      </div>
+      <div class="cards">
+        <i class="fa-brands fa-react"></i>
+        <h3>React</h3>
+        <p class="percent-card">50%</p>
+      </div>
+      <div class="cards">
+        <img src="pic/user-experience.png" />
+        <h3>UX</h3>
+        <p class="percent-card">70%</p>
+      </div>
+      <div class="cards">
+        <img src="pic/ui-design.png" />
+        <h3>UI</h3>
+        <p class="percent-card">70%</p>
+      </div>
+      <div class="cards">
+        <img src="pic/web-design.png" />
+        <h3>Responsive</h3>
+        <p class="percent-card">65%</p>
+      </div>
+     </div>
+    </section>
+    
+    <!-- photo 2 section--> 
+    <section class="photo-second">
+
+    </section>
+    <!-- more info section--> 
+    <section class="info-me " id="info">
+      <h2 class="heading-title">More Information</h2>
+      <h3 >one interseted information about me that I can speak three languages</h3>
+      <div class="info">
+      <div class="progress-bar-container">
+        <h2>
+          <label for="arabic">Arabic</label>
+        </h2>
+        <div class="progress-bar arabic">
+          <progress id="arabic" min="0" max="100" value="100"></progress>
+        </div>
+      </div>
+      
+      <div class="progress-bar-container">
+        <h2>
+          <label for="english">English</label>
+        </h2>
+        <div class="progress-bar english">
+          <progress id="english" min="0" max="100" value="95"></progress>
+        </div>
+      </div>
+      
+      <div class="progress-bar-container">
+        <h2>
+          <label for="spanish">Spanish</label>
+        </h2>
+        <div class="progress-bar spanish">
+          <progress id="spanish" min="0" max="100" value="65"></progress>
+        </div>
+      </div>
+    </div>
+
+   <!-- contact section-->
+   <div class="contact"> 
+    <div class="contact-header">
+      <h2 class="heading-title">Contact Me</h2>
+    </div>
+    
+    <div class="contact-content">
+      <div class="contact-form">
+        <h3 id="form-title">Send me a message</h3>
+      <form action="mailto:alanoud2030mjd@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+          <div class="form-field">
+            <input name="name" type="text" id="name" placeholder="Your Name"></input>
+          </div>
+        <div class="form-field">
+            <input name="email" type="email" id="email" placeholder="Your Email"></input>
+          </div>
+        <div class="form-field">
+            <input name="Subject" type="text" id="subject" placeholder="Subject"></input>
+          </div>
+      <div class="form-field">
+            <textarea name="message" type="text" id="message" placeholder="Your Message"></textarea>
+          </div>
+        </fieldset>
+    <input id="form-btn" type="submit" value="send">
+      </form>
+  </div>
+    
+      <div class="contact-info">
+        <h3>Email Me At </h3>
+        <a href="mailto:alanoud2030mjd@gmail.com"><p>alanoud2030mjd@gmail.com</p></a>
+        <h3>Call me </h3>
+        <div class="contact-links">
+          <p>966 506116734</p>
+        </div>
+      </div>
+      </div>
+  </div>
+    </section>
+    <!-- footer section-->
+  <footer>
+    <div class="footer-container">
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn"  target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub"  target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter"  target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram"  target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" ><i class="fab fa-instagram" target="_blank"></i></a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+          <a href="#about-me">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#info">More Info</a>
+      </div>
+      <div class="footerButtom">
+        <p>Copyright &copy;2024; designed by <span class="designer">Alanoud</span></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--script code to make the skills section apears slow-->
+  <script type="text/javascript">
+   window.addEventListener('scroll', reveal);
+   function reveal(){
+    var reveals = document.querySelectorAll('.reveal');
+    for(var i =0 ; i< reveals.length;i++){
+      var windowheight = window.innerHeight;
+      var revealtop= reveals[i].getBoundingClientRect().top;
+      var revealpoint = 150;
+
+      if(revealtop < windowheight - revealpoint){
+        reveals[i].classList.add('active');
+      }
+      else{
+        reveals[i].classList.remove('active');
+      }
+    }
+   }
+  </script>
+</body>
+</html>
